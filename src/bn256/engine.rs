@@ -12,7 +12,7 @@ use core::borrow::Borrow;
 use core::iter::Sum;
 use core::ops::{Add, Mul, MulAssign, Neg, Sub};
 use pairing::{Engine, MillerLoopResult, MultiMillerLoop, PairingCurveAffine};
-use rand_core::RngCore;
+use rand::RngCore;
 use subtle::{Choice, ConditionallySelectable, ConstantTimeEq};
 
 pub const BN_X: u64 = 4965661367192848881;
